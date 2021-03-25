@@ -13,4 +13,4 @@ for (var number of iterator) {
     generatorArray.push(number);
 }
 
-console.log(generatorArray);
+module.exports = { generatorArray, myGenerator};
