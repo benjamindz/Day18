@@ -32,7 +32,7 @@ var fifteenArray = [];
 
 for (i = 0; i < 16; i++) {
     if (i < 15) {
-        fifteenArray.push(iterator.next().value + "#");
+        fifteenArray.push(iterator.next().value);
     } else {
         fifteenArray.push(iterator.next().value + "!");
 
@@ -42,5 +42,5 @@ for (i = 0; i < 16; i++) {
 
 
 
-console.log(fifteenArray);
+console.log(fifteenArray.join('#, '));
 module.exports = { fifteenArray, myGenerator};
